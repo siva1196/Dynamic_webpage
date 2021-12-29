@@ -1,0 +1,57 @@
+<html>
+	{%load static%}
+	<head>
+		<title>Dynamic Webpage</title>
+		
+	</head>
+
+	<body>
+		<link rel = "stylesheet" href = "{% static 'dynamic.css' %}">
+
+		<h1>Dynamic web page creation</h1>
+
+		<div class = "courses">
+
+			<div class = "course">
+				<img src = "{% static 'Images/python.jfif' %}">
+				<h4> <span>Course Name:</span> Python</h4> 
+				<h4> <span>Nature:</span> Backend Developing</h4> 
+				<h4> <span>Price:</span> Rs. 10000</h4> 
+			</div>
+
+			<div class = "course">
+				<img src = "{% static 'Images/javaScript.jfif' %}">
+				<h4> <span>Course Name:</span> JavaScript</h4> 
+				<h4> <span>Nature:</span> Frontend Designing</h4> 
+				<h4> <span>Price:</span> Rs. 7000</h4> 
+			</div>
+
+			<div class = "course">
+				<img src = "{% static 'Images/CSS.png' %}"  height = "230" width="200">
+				<h4> <span>Course Name:</span> CSS</h4> 
+				<h4> <span>Nature:</span> Frondend Designing</h4> 
+				<h4> <span>Price:</span> Rs. 5000</h4> 
+			</div>
+			<div class = "course">
+				<img src = "{% static 'Images/AWS.png' %}">
+				<h4> <span>Course Name:</span> AWS</h4> 
+				<h4> <span>Nature:</span> Cloud computing</h4> 
+				<h4> <span>Price:</span> Rs. 15000</h4> 
+			</div>
+			<div class = "course">
+				<img src = "{% static 'Images/Azure.jfif' %}">
+				<h4> <span>Course Name:</span> Azure</h4> 
+				<h4> <span>Nature:</span> Cloud computing</h4> 
+				<h4> <span>Price:</span> Rs. 17000</h4> 
+			</div>
+			<div class = "course">
+				<img src = "{% static 'Images/Django.png' %}">
+				<h4> <span>Course Name:</span> Django Framework</h4> 
+				<h4> <span>Nature:</span> Backend Web Development</h4> 
+				<h4> <span>Price:</span> Rs. 15000</h4> 
+			</div>
+		</div>
+
+	</body>
+
+</html>

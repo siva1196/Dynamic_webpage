@@ -1,0 +1,38 @@
+h1{
+	border: 5px solid blue;
+	border-radius: 5px;
+	text-align: center;
+	background-image: linear-gradient(blue, green);
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	height: 50px;
+}
+
+img{
+
+	height: 30%;
+	width: 50%;
+
+}
+
+.course{
+	float: left;
+	width: 30.33%;
+}
+
+.courses::after{
+	content: "";
+	clear: both;
+	display: table;
+
+}
+
+h4{
+
+	font-family: "verdana", sans-serif;
+}
+Span{
+	color: Blue;
+	font-family: "Helvetica", serif;
+
+}
